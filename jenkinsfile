@@ -14,11 +14,11 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('run JAR'){
-            steps{
-                sh ''
-            }
-        }
+        // stage('run JAR'){
+        //     steps{
+        //         sh ''
+        //     }
+        // }
        
     }
 }
